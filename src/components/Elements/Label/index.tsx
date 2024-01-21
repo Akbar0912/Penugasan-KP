@@ -3,12 +3,11 @@ import { TbCircleLetterM } from "react-icons/tb";
 import { FaPersonCircleQuestion } from "react-icons/fa6";
 import { IoCreateOutline } from "react-icons/io5";
 import { MdOutlineCreate } from "react-icons/md";
-import InputForm from "../Input/Index";
 import Icon from "./icon";
 
 const InputAsk = () => {
   return (
-    <div className="bg-white mt-4 h-20 px-4 shadow-sm border border-gray-200 rounded-md">
+    <div className=" bg-white shadow-lg rounded-lg h-20 mx-4 px-4 mt-4 mb-4 md:mx-auto max-w-md md:max-w-xl ">
       <div className="flex items-center pt-2 mb-2">
         <TbCircleLetterM className="text-4xl text-purple-500 "/>
         <input

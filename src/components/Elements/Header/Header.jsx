@@ -19,12 +19,12 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="flex justify-evenly my-2 text-white px-10 lg:my-2">
+    <div className="flex items-center my-2 text-white px-10 lg:my-2">
       <div className="flex items-center">
         <img src="image/logo.png" alt="logo" className="w-20 mr-8" />
 
         <div className="flex items-center gap-4">
-          <div className="flex gap-10">
+          <div className="flex gap-10 ">
             <IconButton icon={<AiFillHome />} tooltipContent="Beranda" />
             <IconButton icon={<MdOutlineListAlt />} tooltipContent="Mengikuti" />
             <IconButton icon={<IoCreateOutline />} tooltipContent="Jawab" />
@@ -38,7 +38,7 @@ const SearchBar = () => {
             <FaSearch className="absolute left-8 mr-8 text-sm text-gray-400" />
             <input
               type="text"
-              className="w-96 h-8 ml-4 pl-9 text-sm border-gray-200 rounded-sm focus:outline-none text-black"
+              className="w-96 md:w-72 h-8 ml-4 pl-9 text-sm border-gray-200 rounded-sm focus:outline-none text-black"
               placeholder="Cari quora"
             ></input>
           </div>

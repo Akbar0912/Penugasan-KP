@@ -14,7 +14,7 @@ const ProductPage = () => {
         </div>
       </div>
 
-      <div className="flex px-20 h-screen bg-gray-100">
+      <div className="flex px-20 bg-gray-100">
         <div className="">
           <SideBar />
         </div>
